@@ -34,10 +34,10 @@ export const Project = () => {
 				</CardBody>
 			</Card>
 			<Card>
-				<CardHeader title="Link utili"/>
+				<CardHeader title="Vuoi aiutarci?"/>
 				<CardBody>
-					<a href="http://dati.toscana.it/dataset/ars-edit" target="_blank" rel="noopener noreferrer">Dataset
-						Open Toscana</a>
+					<a href="https://github.com/Pinzauti/indagine-edit-frontend" target="_blank" rel="noopener noreferrer">Repository Frontend</a> <br/>
+					<a href="https://github.com/Pinzauti/indagine-edit-api" target="_blank" rel="noopener noreferrer">Repository API</a>
 				</CardBody>
 			</Card>
 		</>
