@@ -38,7 +38,7 @@ export const Stats = () => {
 			<div className="col-lg-6 col-xxl-4 order-1 order-xxl-1">
 				<Card>
 					<CardHeader title="Sostanze stupefacenti alla guida"/>
-					<CardBody><Bars endpoint={process.env.REACT_APP_ENDPOINT_DRUGS}/></CardBody><br/><br/>
+					<CardBody><Bars endpoint={process.env.REACT_APP_ENDPOINT_DRUGS}/></CardBody><br/><br/> <br/>
 					<CardFooter>È presente una maggiore incidenza di sinistri stradali in chi almeno una volta ha
 						guidato dopo aver assunto sostanze psicotrope.</CardFooter>
 				</Card>
@@ -49,11 +49,11 @@ export const Stats = () => {
 					<CardBody>
 						<div className="row">
 							<div className="col-lg-6">
-								<LifeStyle endpoint={process.env.REACT_APP_ENDPOINT_LIFESTYLE}/> <br/><br/>
+								<LifeStyle endpoint={process.env.REACT_APP_ENDPOINT_LIFESTYLE}/> <br/><br/> <br/>
 
 							</div>
 							<div className="col-lg-6">
-								<LifeStyle endpoint={process.env.REACT_APP_ENDPOINT_ACCIDENTS_LIFESTYLE}/> <br/><br/>
+								<LifeStyle endpoint={process.env.REACT_APP_ENDPOINT_ACCIDENTS_LIFESTYLE}/> <br/><br/> <br/>
 							</div>
 						</div>
 					</CardBody>
