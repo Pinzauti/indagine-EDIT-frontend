@@ -37,7 +37,7 @@ export function Bmi() {
 					<YAxis/>
 					<Tooltip/>
 					<Legend/>
-					<Line type="monotone" dataKey="BMI" stroke="#8884d8" activeDot={{r: 8}}/>
+					<Line type="monotone" dataKey="Nessun incidente" stroke="#8884d8" activeDot={{r: 8}}/>
 					<Line type="monotone" dataKey="Incidenti" stroke="#82ca9d"/>
 				</LineChart>
 			</ResponsiveContainer>
