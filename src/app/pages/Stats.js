@@ -56,7 +56,7 @@ export const Stats = () => {
 							</div>
 						</div>
 					</CardBody>
-					<CardFooter>Sulla sinistra abbiamo coloro i quali non sono mai stati coinvolti in incidentri stradali. Sulla destra le persone che invece hanno commesso almeno un incidente. Si confrontano, in percentuale, i differenti stili di vita dei soggetti a seconda che siano stati coinvolti o meno in un incidente.</CardFooter>
+					<CardFooter>Nel primo grafico abbiamo coloro i quali non sono mai stati coinvolti in incidentri stradali. Nel secondo le persone che invece hanno commesso almeno un incidente. Si confrontano, in percentuale, i differenti stili di vita dei soggetti a seconda che siano stati coinvolti o meno in un incidente.</CardFooter>
 				</Card>
 			</div>
 			<div className="col-lg-6 col-xxl-4 order-1 order-xxl-2">
