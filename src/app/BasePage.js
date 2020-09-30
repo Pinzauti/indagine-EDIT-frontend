@@ -10,11 +10,11 @@ export default function BasePage() {
         <Suspense fallback={<LayoutSplashScreen/>}>
             <Switch>
                 {
-                    <Redirect exact from="/" to="/dati"/>
+                    <Redirect exact from="/" to="/progetto"/>
                 }
-                <ContentRoute path="/dati" component={Data}/>
-                <ContentRoute path="/statistiche" component={Stats}/>
                 <ContentRoute path="/progetto" component={Project}/>
+                <ContentRoute path="/statistiche" component={Stats}/>
+                <ContentRoute path="/dati" component={Data}/>
                 <Redirect to="errore"/>
             </Switch>
         </Suspense>

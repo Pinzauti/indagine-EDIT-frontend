@@ -16,9 +16,9 @@ export function HeaderMenu({ layoutProps }) {
         {...layoutProps.headerMenuAttributes}
     >
         <ul className={`menu-nav ${layoutProps.ulClasses}`}>
-            <li className={`menu-item menu-item-rel ${getMenuItemActive('/dati')}`}>
-                <NavLink className="menu-link" to="/dati">
-                    <span className="menu-text">Dati</span>
+            <li className={`menu-item menu-item-rel ${getMenuItemActive('/progetto')}`}>
+                <NavLink className="menu-link" to="/progetto">
+                    <span className="menu-text">Progetto</span>
                 </NavLink>
             </li>
             <li className={`menu-item menu-item-rel ${getMenuItemActive('/statistiche')}`}>
@@ -27,9 +27,9 @@ export function HeaderMenu({ layoutProps }) {
                     {layoutProps.rootArrowEnabled && (<i className="menu-arrow" />)}
                 </NavLink>
             </li>
-            <li className={`menu-item menu-item-rel ${getMenuItemActive('/progetto')}`}>
-                <NavLink className="menu-link" to="/progetto">
-                    <span className="menu-text">Progetto</span>
+            <li className={`menu-item menu-item-rel ${getMenuItemActive('/dati')}`}>
+                <NavLink className="menu-link" to="/dati">
+                    <span className="menu-text">Dati</span>
                 </NavLink>
             </li>
         </ul>

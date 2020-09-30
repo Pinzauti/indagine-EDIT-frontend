@@ -8,6 +8,9 @@ export const Stats = () => {
 	suhbeader.setTitle("Indagine EDIT");
 
 	return (<>
+		<Card>
+			<CardBody>Di seguito saranno analizzati i dati raccolti tramite questionari sottolineando le correlazioni statistiche tra i vari comportamenti individuali e l'essere stati coinvolti o meno in incidenti stradali.</CardBody>
+		</Card>
 		<div className="row">
 			<div className="col-lg-6 col-xxl-4">
 				<Card>
@@ -21,8 +24,7 @@ export const Stats = () => {
 				<Card>
 					<CardHeader title="Alcol alla guida"/>
 					<CardBody><Bars endpoint={process.env.REACT_APP_ENDPOINT_ALCOHOL}/></CardBody>
-					<CardFooter>È presente una maggior incidenza di sinistri stradali in chi almeno una volta ha
-						guidato dopo avere bevuto troppo.</CardFooter>
+					<CardFooter>Viene confrontata la percentuale di incidenti stradali commessa da chi afferma di aver almeno una volta guidato ubriaco e chi sostiene di non averlo mai fatto.</CardFooter>
 				</Card>
 			</div>
 
@@ -30,8 +32,7 @@ export const Stats = () => {
 				<Card>
 					<CardHeader title="Numero medio di ubriacature annue"/>
 					<CardBody><Drunk/></CardBody>
-					<CardFooter>Sembra esserci una correlazione tra l'ubriacarsi frequentemente e l'essere maggiormente
-						coinvolti in incidenti stradali.</CardFooter>
+					<CardFooter>Si è fatta una media del numero di volte che i soggetti si sono ubriacati in un anno a seconda del numero di incidentri stradali commessi.</CardFooter>
 				</Card>
 			</div>
 
@@ -39,8 +40,7 @@ export const Stats = () => {
 				<Card>
 					<CardHeader title="Sostanze stupefacenti alla guida"/>
 					<CardBody><Bars endpoint={process.env.REACT_APP_ENDPOINT_DRUGS}/></CardBody><br/><br/> <br/>
-					<CardFooter>È presente una maggiore incidenza di sinistri stradali in chi almeno una volta ha
-						guidato dopo aver assunto sostanze psicotrope.</CardFooter>
+					<CardFooter>Viene confrontata la percentuale di incidenti stradali commessa da chi afferma di aver almeno una volta guidato drogato e chi sostiene di non averlo mai fatto.</CardFooter>
 				</Card>
 			</div>
 			<div className="col-xxl-8 order-2 order-xxl-1">
@@ -57,35 +57,28 @@ export const Stats = () => {
 							</div>
 						</div>
 					</CardBody>
-					<CardFooter>Notiamo come chi sia stato coinvolto in incidenti stradali abbia generalmente stili di
-						vita significativamente più a rischio rispetto a chi non ha mai fatto sinistri stradali. Nello
-						specifico lo stile di vita più differente sembra essere il consumo di sostanze
-						stupefacenti.</CardFooter>
+					<CardFooter>Sulla sinistra abbiamo coloro i quali non sono mai stati coinvolti in incidentri stradali. Sulla destra le persone che invece hanno commesso almeno un incidente. Si confrontano i differenti stili di vita dei soggetti.</CardFooter>
 				</Card>
 			</div>
 			<div className="col-lg-6 col-xxl-4 order-1 order-xxl-2">
 				<Card>
 					<CardHeader title="BMI (Body Mass Index)"/>
 					<CardBody><Bmi/></CardBody>
-					<CardFooter>Non sembrano esservi particolari coorelazioni tra BMI e probabilità di rimanere
-						coinvolti in un incidente stradale.</CardFooter>
+					<CardFooter>Si confronta, in base al peso degli intervistati, il numero di persone coinvolte o non coinvolte in incidenti stradali.</CardFooter>
 				</Card>
 			</div>
 			<div className="col-lg-6 col-xxl-4 order-1 order-xxl-2">
 				<Card>
 					<CardHeader title="Fumatori abituali"/>
 					<CardBody><Bars endpoint={process.env.REACT_APP_ENDPOINT_SMOKE}/></CardBody>
-					<CardFooter>Notiamo una correlazione tra il fumare e il coinvolgimento in incidentri stradali.
-						Interessante il fatto che tra i giovani intervistati i fumatori siano la
-						maggioranza.</CardFooter>
+					<CardFooter>Viene confrontata la percentuale di incidenti stradali commessa dai fumatori abituali e dai non fumatori.</CardFooter>
 				</Card>
 			</div>
 			<div className="col-lg-12 col-xxl-4 order-1 order-xxl-2">
 				<Card>
 					<CardHeader title="Essere stati in un mezzo con un ubriaco alla guida"/>
 					<CardBody><Bars endpoint={process.env.REACT_APP_ENDPOINT_DROVE_WITH_DRUNK}/></CardBody>
-					<CardFooter>Quasi la metà di coloro i quali sono stati su un mezzo con un conducente ubriaco sono
-						stati coinvolti in incidenti stradali.</CardFooter>
+					<CardFooter>Viene confrontata la percentuale di incidenti commessa da chi è stato almeno una volta in un mezzo con alla guida un ubriaco e chi sostiene di non averlo mai fatto.</CardFooter>
 				</Card>
 			</div>
 		</div>

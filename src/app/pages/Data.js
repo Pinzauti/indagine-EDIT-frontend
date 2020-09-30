@@ -23,18 +23,29 @@ export default function Data() {
 	const [isLoading, setIsLoading] = React.useState(false);
 
 	React.useEffect(() => {
+		let localData = localStorage.getItem('data');
 		const fetchData = async () => {
 			setIsLoading(true);
 			try {
 				const response = await axios.get(process.env.REACT_APP_ENDPOINT_DATA);
 				setData(response.data);
+				try{
+					localStorage.setItem("data", JSON.stringify(response.data));
+				}
+				catch{
+					localStorage.clear();
+				}
 			} catch (error) {
 				alert("Si è verificato un errore!");
 				return false;
 			}
 			setIsLoading(false);
 		}
-		fetchData();
+		if(localData) {
+			setData(JSON.parse(localData))
+		} else {
+			fetchData();
+		}
 	}, []);
 
 	const columns = [{
