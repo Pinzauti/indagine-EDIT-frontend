@@ -24,7 +24,7 @@ export function Gender() {
 	}, []);
 
 	let renderLabel = function (entry) {
-		return entry.name + ": " + entry.value;
+		return entry.name + ": " + entry.value + "%";
 	}
 
 	return (

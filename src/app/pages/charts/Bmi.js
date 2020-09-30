@@ -34,11 +34,10 @@ export function Bmi() {
 				>
 					<CartesianGrid strokeDasharray="3 3"/>
 					<XAxis dataKey="name"/>
-					<YAxis/>
+					<YAxis tickFormatter={(label) => `${label}%`}/>
 					<Tooltip/>
 					<Legend/>
-					<Line type="monotone" dataKey="Nessun incidente" stroke="#8884d8" activeDot={{r: 8}}/>
-					<Line type="monotone" dataKey="Incidenti" stroke="#82ca9d"/>
+					<Line type="monotone" dataKey="Percentuale incidenti" stroke="#8884d8" activeDot={{r: 8}}/>
 				</LineChart>
 			</ResponsiveContainer>
 		</div>
