@@ -29,10 +29,9 @@ export default function Data() {
 			try {
 				const response = await axios.get(process.env.REACT_APP_ENDPOINT_DATA);
 				setData(response.data);
-				try{
+				try {
 					localStorage.setItem("data", JSON.stringify(response.data));
-				}
-				catch{
+				} catch {
 					localStorage.clear();
 				}
 			} catch (error) {
@@ -41,7 +40,7 @@ export default function Data() {
 			}
 			setIsLoading(false);
 		}
-		if(localData) {
+		if (localData) {
 			setData(JSON.parse(localData))
 		} else {
 			fetchData();
