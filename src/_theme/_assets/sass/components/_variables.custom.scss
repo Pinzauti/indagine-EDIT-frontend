@@ -1,3 +1,9 @@
+//
+// Custom Components Config
+// To override any custom variable safely you can use _variables.demo.scss
+//
+
+// Base icons(See: plugins/keenthemes-icons/font/ki.css)
 $ki-types: (
 	arrowDown: 	'\f109',
 	arrowUp: 	'\f10e',
@@ -52,10 +58,15 @@ $heights-and-widths: (
   	140px: 140px,
   	145px: 145px,
   	150px: 150px,
+	155px: 155px,
+	160px: 160px,
+	165px: 165px,
+	176px: 170px,
   	175px: 175px,
   	180px: 180px,
   	200px: 200px,
   	225px: 225px,
+	235px: 235px,
   	250px: 250px,
   	255px: 255px,
   	260px: 260px,
@@ -229,7 +240,7 @@ $timeline-6-config: (
 	label-width: 50px,
 	bar-width: 40px,
 	badge-size: 13px,
-	bar-border-width: 4px,
+	bar-border-width: 3px,
 	border-color: $white
 ) !default;
 

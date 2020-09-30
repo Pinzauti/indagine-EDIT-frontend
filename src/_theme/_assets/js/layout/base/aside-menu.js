@@ -50,13 +50,6 @@ var KTLayoutAsideMenu = function() {
 				expandAll: false // allow having multiple expanded accordions in the menu
 			}
 		});
-
-        // Disable menu click if aside is fixed and minimized
-        _menuObject.on('submenuToggle', function(menu) {
-            if (KTLayoutAside.isMinimized() === true  && KTLayoutAside.isHoverable() === false) {
-                return false;
-            }
-        });
 	}
 
     var _initHover = function() {

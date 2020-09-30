@@ -527,6 +527,9 @@ $input-solid-bg-focus:                              $gray-200; // Custom variabl
 $input-solid-placeholder-color:                     $input-placeholder-color;  // Custom variable
 $input-solid-color:                              	$dark-75; // Custom variable
 
+$custom-control-indicator-checked-box-shadow:       none !default;
+$custom-control-indicator-active-box-shadow:        none !default;
+
 // Forms
 $form-group-margin-bottom:                          1.75rem !default;
 $form-label-font-size:                              1rem !default; // Custom variable
