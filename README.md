@@ -13,7 +13,7 @@ Indagine EDIT si pone l'obiettivo di rendere fruibili i dati raccolti dalla regi
 - `yarn install`
 
 ### Avvio
-
+- Modificare l'URL delle API nei vari endpoint specificati nelle variabili di ambiente (si veda il file .env).
 - `yarn start`
 
 ### Compilazione
