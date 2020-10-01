@@ -35,7 +35,7 @@
         "@material-ui/pickers": "3.2.10",
         "@material-ui/styles": "4.10.0",
         "@tanem/svg-injector": "8.0.50",
-        "apexcharts": "3.19.2",
+        "apexcharts": "3.21.0",
         "axios": "0.20.0",
         "axios-mock-adapter": "1.18.2",
         "bootstrap": "4.5.0",
