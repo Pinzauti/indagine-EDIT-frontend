@@ -2,6 +2,7 @@
 ![](https://github.com/Pinzauti/indagine-edit-frontend/workflows/Node%20CI/badge.svg)
 ![](https://github.com/Pinzauti/indagine-edit-frontend/workflows/Lint%20Code%20Base/badge.svg)
 ![](https://github.com/Pinzauti/indagine-edit-frontend/workflows/CodeQL/badge.svg)
+[![Build Status](https://travis-ci.com/Pinzauti/indagine-edit-frontend.svg?branch=master)](https://travis-ci.com/Pinzauti/indagine-edit-frontend)
 [![BCH compliance](https://bettercodehub.com/edge/badge/Pinzauti/indagine-edit-frontend?branch=master)](https://bettercodehub.com/)
 
 ## Informazioni sul progetto
