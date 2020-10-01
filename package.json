@@ -44,7 +44,7 @@
         "cp-cli": "2.0.0",
         "css-mediaquery": "0.1.2",
         "date-fns": "2.16.1",
-        "downshift": "3.4.2",
+        "downshift": "6.0.6",
         "fg-loadcss": "3.1.0",
         "formik": "2.1.6",
         "json2mq": "0.2.0",
