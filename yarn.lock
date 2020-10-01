@@ -5438,10 +5438,10 @@ format@^0.2.0:
   resolved "https://registry.yarnpkg.com/format/-/format-0.2.2.tgz#d6170107e9efdc4ed30c9dc39016df942b5cb58b"
   integrity sha1-1hcBB+nv3E7TDJ3DkBbflCtctYs=
 
-formik@2.1.5:
-  version "2.1.5"
-  resolved "https://registry.yarnpkg.com/formik/-/formik-2.1.5.tgz#de5bbbe35543fa6d049fe96b8ee329d6cd6892b8"
-  integrity sha512-bWpo3PiqVDYslvrRjTq0Isrm0mFXHiO33D8MS6t6dWcqSFGeYF52nlpCM2xwOJ6tRVRznDkL+zz/iHPL4LDuvQ==
+formik@2.1.6:
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/formik/-/formik-2.1.6.tgz#f723bfccb2c7abec886aa6a4930b360d20f1a0b3"
+  integrity sha512-m9DcxlZw/58p4xuhH3dzUzQWaC4dig0RKX7yNQOJt4VRhXn7p+YRrs3o17r3YwzvOLua3zC53VMbfupLsDwO5w==
   dependencies:
     deepmerge "^2.1.1"
     hoist-non-react-statics "^3.3.0"
@@ -10047,17 +10047,7 @@ react-dnd@^11.1.3:
     dnd-core "^11.1.3"
     hoist-non-react-statics "^3.3.0"
 
-react-dom@16.13.0:
-  version "16.13.0"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.13.0.tgz#cdde54b48eb9e8a0ca1b3dc9943d9bb409b81866"
-  integrity sha512-y09d2c4cG220DzdlFkPTnVvGTszVvNpC73v+AaLGLHbkpy3SSgvYq8x0rNwPJ/Rk/CicTNgk0hbHNw1gMEZAXg==
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-    prop-types "^15.6.2"
-    scheduler "^0.19.0"
-
-react-dom@^16.3.0:
+react-dom@16.13.1, react-dom@^16.3.0:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.13.1.tgz#c1bd37331a0486c078ee54c4740720993b2e0e7f"
   integrity sha512-81PIMmVLnCNLO/fFOQxdQkvEq/+Hfpv24XNJfpyZhTRfO0QcmQIF/PgCa1zCOj2w1hrn12MFLyaJ/G0+Mxtfag==
@@ -11056,7 +11046,7 @@ scheduler@^0.18.0:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
 
-scheduler@^0.19.0, scheduler@^0.19.1:
+scheduler@^0.19.1:
   version "0.19.1"
   resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.19.1.tgz#4f3e2ed2c1a7d65681f4c854fa8c5a1ccb40f196"
   integrity sha512-n/zwRWRYSUj0/3g/otKDRPMh6qv2SYMWNq85IEa8iZyAv8od9zDYpGSnpBEjNgcMNq6Scbu5KfIPxNF72R/2EA==
