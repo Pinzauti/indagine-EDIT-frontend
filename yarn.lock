@@ -8243,10 +8243,10 @@ ms@2.1.2, ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
-mui-datatables@^3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/mui-datatables/-/mui-datatables-3.4.1.tgz#bd7825ec75cadc245842b64237a044ca29b7396c"
-  integrity sha512-4g62AXt5gyRdc3qUux9Zn8zH4NZOOWRFApU/W42LpWyGXLaNtUlOapsFteWCUloga9YF/Hd51QvhH8+aSkHULQ==
+mui-datatables@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/mui-datatables/-/mui-datatables-3.5.0.tgz#2ffefaa3256e823c7fce98de0e563027f0cad224"
+  integrity sha512-CLNlEbSK7ANdwlS8iqOs2NGgcoV7v6SuNLV3ofWizKVbMzceWplm6iUdwfuBtSsiEx3IiYmoKJ4XZgssLitDRQ==
   dependencies:
     clsx "^1.1.1"
     lodash.assignwith "^4.2.0"
@@ -10542,10 +10542,10 @@ react-swipeable-views@0.13.9:
     react-swipeable-views-utils "^0.13.9"
     warning "^4.0.1"
 
-react-syntax-highlighter@13.5.3:
-  version "13.5.3"
-  resolved "https://registry.yarnpkg.com/react-syntax-highlighter/-/react-syntax-highlighter-13.5.3.tgz#9712850f883a3e19eb858cf93fad7bb357eea9c6"
-  integrity sha512-crPaF+QGPeHNIblxxCdf2Lg936NAHKhNhuMzRL3F9ct6aYXL3NcZtCL0Rms9+qVo6Y1EQLdXGypBNSbPL/r+qg==
+react-syntax-highlighter@15.0.1:
+  version "15.0.1"
+  resolved "https://registry.yarnpkg.com/react-syntax-highlighter/-/react-syntax-highlighter-15.0.1.tgz#6b4e325ed6d93d144c8a7a755b9d9b5435c66bd7"
+  integrity sha512-u7urbi8mgFC6kstA35Uh+m7ZCz4g+URdqA8VqvfgVukJWBpOwDbcaRcR60Kk2/384dxgZErBGSahA3ptOOkRWA==
   dependencies:
     "@babel/runtime" "^7.3.1"
     highlight.js "^10.1.1"
