@@ -37,7 +37,7 @@
         "@tanem/svg-injector": "8.0.71",
         "axios": "0.20.0",
         "axios-mock-adapter": "1.18.2",
-        "bootstrap": "4.5.2",
+        "bootstrap": "4.5.3",
         "clipboard-copy": "3.1.0",
         "clsx": "1.1.1",
         "cp-cli": "2.0.0",
