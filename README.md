@@ -11,7 +11,7 @@ Indagine EDIT si pone l'obiettivo di rendere fruibili i dati raccolti dalla regi
 
 ### Prerequisiti
 
-- [NPM](https://github.com/npm/npm)
+- [Node](https://nodejs.org/it/)
 - [Yarn](https://github.com/yarnpkg/yarn)
 ### Installazione
 
