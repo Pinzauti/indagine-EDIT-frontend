@@ -9799,10 +9799,10 @@ react-from-dom@^0.5.0:
   resolved "https://registry.yarnpkg.com/react-from-dom/-/react-from-dom-0.5.0.tgz#66b6f67132f7f5bdbae248e968b45d8b79af9bf6"
   integrity sha512-Vk0H+XW1oKrqS8bhq1ynG0zgLufUcDQ+CUwJsoYCr1WNH5LVmmfdYBoCBYLHWd1d2PBB3TolqT9gQjORt7f/YA==
 
-react-inlinesvg@2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/react-inlinesvg/-/react-inlinesvg-2.1.1.tgz#2ae3fab62f5aba11a5c1be142eeb0357e7098e74"
-  integrity sha512-B4CMMuPXzWF02iX9sDeR6OuCAVgrovomg4J26E+2ltc+Zs0dPXBBrW1siBXq9NENsX1rsqPbti0L8AEMpmaVPw==
+react-inlinesvg@2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/react-inlinesvg/-/react-inlinesvg-2.2.1.tgz#acdc054609773c3f9abff118351def98aa92d3de"
+  integrity sha512-YBPARWW0t3pFbkAqEJc9+E+CpReNE4b496vMr9yafNxGN18MQjOARGIXBfvYGCKwYccqYLS4IXI9R0Yiqmwbtw==
   dependencies:
     exenv "^1.2.2"
     react-from-dom "^0.5.0"
