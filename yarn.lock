@@ -9794,18 +9794,18 @@ react-error-overlay@^6.0.7:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.7.tgz#1dcfb459ab671d53f660a991513cb2f0a0553108"
   integrity sha512-TAv1KJFh3RhqxNvhzxj6LeT5NWklP6rDr2a0jaTfsZ5wSZWHOGeqQyejUp3xxLfPt2UpyJEcVQB/zyPcmonNFA==
 
-react-from-dom@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/react-from-dom/-/react-from-dom-0.5.0.tgz#66b6f67132f7f5bdbae248e968b45d8b79af9bf6"
-  integrity sha512-Vk0H+XW1oKrqS8bhq1ynG0zgLufUcDQ+CUwJsoYCr1WNH5LVmmfdYBoCBYLHWd1d2PBB3TolqT9gQjORt7f/YA==
+react-from-dom@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/react-from-dom/-/react-from-dom-0.6.0.tgz#8b9710ba7fbd36cde9e13e9eb26f5f67ab933678"
+  integrity sha512-W5m1pYV7qlc9bmpA7p2K/wspYNlAh3aqJ9Tc5KRXe6vt/JlX6/84ol+RQlCMK69z+5e38sOpoVW5i4Qpqgs+EA==
 
-react-inlinesvg@2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/react-inlinesvg/-/react-inlinesvg-2.1.1.tgz#2ae3fab62f5aba11a5c1be142eeb0357e7098e74"
-  integrity sha512-B4CMMuPXzWF02iX9sDeR6OuCAVgrovomg4J26E+2ltc+Zs0dPXBBrW1siBXq9NENsX1rsqPbti0L8AEMpmaVPw==
+react-inlinesvg@2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/react-inlinesvg/-/react-inlinesvg-2.3.0.tgz#62283c0ce7e9d11d8190ec3e89589102288830fd"
+  integrity sha512-fEGOdDf4k4bcveArbEpj01pJcH8pOCKLxmSj2POFdGvEk5YK0NZVnH6BXpW/PzACHPRsuh1YKAhNZyFnD28oxg==
   dependencies:
     exenv "^1.2.2"
-    react-from-dom "^0.5.0"
+    react-from-dom "^0.6.0"
 
 react-is@17.0.1:
   version "17.0.1"
